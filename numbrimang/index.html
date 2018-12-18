@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Numbriarvamise mäng</title>
+    </head>
+    <body>
+        <h1>Numbri arvamise mäng</h1>
+        <p>Arva ära number  1 ja 100 vahel.</p>
+        <div class="form">
+            <label for="guessField">Sisesta pakkumine:</label>
+            <input type="number" id="guessField" class="guessField" min="1" max="100">
+            <input type="submit" value="Kontrolli" class="guessSubmit" id="lars420">
+        </div>
+        <div class="results">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHigh"></p>
+        </div>
+        <div>
+            <input type="button" id="startAgain" class="startAgain" onclick="window.location.reload()" value="Alusta Uuesti!">    
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
